@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EXAppExtensionAttributes</key>
+	<dict>
+		<key>EXExtensionPointIdentifier</key>
+		<string>com.apple.discovery-extension</string>
+	</dict>
+	<key>NSBluetoothServices</key>
+	<array>
+		<string>feed</string>
+		<string>feaa</string>
+		<string>fd5a</string>
+		<string>fe33</string>
+		<string>819DB9FA-CD8D-4B94-BB00-880DFAE6B620</string>
+	</array>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_airplay._tcp.</string>
+		<string>_spotify-connect._tcp.</string>
+		<string>_deviceaccess._udp.</string>
+		<string>_example._tcp</string>
+		<string>_airdrop._tcp</string>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data-access-protocol</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Example Protocol</string>
+			<key>UTTypeIcons</key>
+			<dict>
+				<key>UTTypeSymbolName</key>
+				<string>ExampleProtocolIcon</string>
+			</dict>
+			<key>UTTypeIdentifier</key>
+			<string>de.tu-darmstadt.example-protocol</string>
+		</dict>
+	</array>
+</dict>
+</plist>

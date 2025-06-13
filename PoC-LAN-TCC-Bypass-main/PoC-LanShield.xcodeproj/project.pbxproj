@@ -1,0 +1,1096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78DE44672D2C931500473B65 /* AVRouting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DE44662D2C931500473B65 /* AVRouting.framework */; };
+		78DE44692D2C931C00473B65 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DE44682D2C931C00473B65 /* AVFoundation.framework */; };
+		78DE446B2D2C932200473B65 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DE446A2D2C932200473B65 /* AVKit.framework */; };
+		78DE44852D2C988800473B65 /* PoCLanShieldDDE.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = 78F464182D19BB3C009DB1AF /* PoCLanShieldDDE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78F463B42D14641F009DB1AF /* PoCLanShieldSafariExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 78F4639C2D14641F009DB1AF /* PoCLanShieldSafariExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78F463D22D149463009DB1AF /* PoCLanShieldWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 78F463C52D149462009DB1AF /* PoCLanShieldWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78A39DD12D1424AB004833CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A39DB82D1424A9004833CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A39DBF2D1424A9004833CA;
+			remoteInfo = "PoC-LanShield";
+		};
+		78A39DDB2D1424AB004833CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A39DB82D1424A9004833CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A39DBF2D1424A9004833CA;
+			remoteInfo = "PoC-LanShield";
+		};
+		78DE44642D2C92C700473B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A39DB82D1424A9004833CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F463C42D149462009DB1AF;
+			remoteInfo = "PoCLanShieldWatch Watch App";
+		};
+		78DE44862D2C988800473B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A39DB82D1424A9004833CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F464172D19BB3C009DB1AF;
+			remoteInfo = PoCLanShieldDDE;
+		};
+		78F463B22D14641F009DB1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A39DB82D1424A9004833CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78F4639B2D14641F009DB1AF;
+			remoteInfo = PoCLanShieldSafariExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		78DE447E2D2C946F00473B65 /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				78DE44852D2C988800473B65 /* PoCLanShieldDDE.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463B92D14641F009DB1AF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				78F463B42D14641F009DB1AF /* PoCLanShieldSafariExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463D62D149463009DB1AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				78F463D22D149463009DB1AF /* PoCLanShieldWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		78A39DC02D1424A9004833CA /* PoC-LanShield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PoC-LanShield.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A39DD02D1424AB004833CA /* PoC-LanShieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PoC-LanShieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A39DDA2D1424AB004833CA /* PoC-LanShieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PoC-LanShieldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DE44662D2C931500473B65 /* AVRouting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVRouting.framework; path = System/Library/Frameworks/AVRouting.framework; sourceTree = SDKROOT; };
+		78DE44682D2C931C00473B65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		78DE446A2D2C932200473B65 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		78F4639C2D14641F009DB1AF /* PoCLanShieldSafariExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PoCLanShieldSafariExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F463C52D149462009DB1AF /* PoCLanShieldWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PoCLanShieldWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F464182D19BB3C009DB1AF /* PoCLanShieldDDE.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = PoCLanShieldDDE.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		78F463B52D14641F009DB1AF /* Exceptions for "PoCLanShieldSafariExtension" folder in "PoCLanShieldSafariExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78F4639B2D14641F009DB1AF /* PoCLanShieldSafariExtension */;
+		};
+		78F463C02D14943C009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoC-LanShield" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78A39DBF2D1424A9004833CA /* PoC-LanShield */;
+		};
+		78F463FF2D157742009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoCLanShieldWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RouterExploit.swift,
+			);
+			target = 78F463C42D149462009DB1AF /* PoCLanShieldWatch Watch App */;
+		};
+		78F4642A2D19BB3C009DB1AF /* Exceptions for "PoCLanShield_DDE" folder in "PoCLanShieldDDE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 78F464172D19BB3C009DB1AF /* PoCLanShieldDDE */;
+		};
+		78F4642D2D19BC19009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoCLanShieldDDE" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				RouterExploit.swift,
+			);
+			target = 78F464172D19BB3C009DB1AF /* PoCLanShieldDDE */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		78A39DC22D1424A9004833CA /* PoC-LanShield */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78F463C02D14943C009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoC-LanShield" target */,
+				78F463FF2D157742009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoCLanShieldWatch Watch App" target */,
+				78F4642D2D19BC19009DB1AF /* Exceptions for "PoC-LanShield" folder in "PoCLanShieldDDE" target */,
+			);
+			path = "PoC-LanShield";
+			sourceTree = "<group>";
+		};
+		78A39DD32D1424AB004833CA /* PoC-LanShieldTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PoC-LanShieldTests";
+			sourceTree = "<group>";
+		};
+		78A39DDD2D1424AB004833CA /* PoC-LanShieldUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PoC-LanShieldUITests";
+			sourceTree = "<group>";
+		};
+		78F4639D2D14641F009DB1AF /* PoCLanShieldSafariExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78F463B52D14641F009DB1AF /* Exceptions for "PoCLanShieldSafariExtension" folder in "PoCLanShieldSafariExtension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = PoCLanShieldSafariExtension;
+			sourceTree = "<group>";
+		};
+		78F463C62D149462009DB1AF /* PoCLanShieldWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PoCLanShieldWatch Watch App";
+			sourceTree = "<group>";
+		};
+		78F464192D19BB3C009DB1AF /* PoCLanShield_DDE */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				78F4642A2D19BB3C009DB1AF /* Exceptions for "PoCLanShield_DDE" folder in "PoCLanShieldDDE" target */,
+			);
+			path = PoCLanShield_DDE;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A39DBD2D1424A9004833CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE446B2D2C932200473B65 /* AVKit.framework in Frameworks */,
+				78DE44692D2C931C00473B65 /* AVFoundation.framework in Frameworks */,
+				78DE44672D2C931500473B65 /* AVRouting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DCD2D1424AB004833CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DD72D1424AB004833CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463992D14641F009DB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463C22D149462009DB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F464152D19BB3C009DB1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A39DB72D1424A9004833CA = {
+			isa = PBXGroup;
+			children = (
+				78A39DC22D1424A9004833CA /* PoC-LanShield */,
+				78A39DD32D1424AB004833CA /* PoC-LanShieldTests */,
+				78A39DDD2D1424AB004833CA /* PoC-LanShieldUITests */,
+				78F4639D2D14641F009DB1AF /* PoCLanShieldSafariExtension */,
+				78F463C62D149462009DB1AF /* PoCLanShieldWatch Watch App */,
+				78F464192D19BB3C009DB1AF /* PoCLanShield_DDE */,
+				78DE445B2D2C912300473B65 /* Frameworks */,
+				78A39DC12D1424A9004833CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A39DC12D1424A9004833CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A39DC02D1424A9004833CA /* PoC-LanShield.app */,
+				78A39DD02D1424AB004833CA /* PoC-LanShieldTests.xctest */,
+				78A39DDA2D1424AB004833CA /* PoC-LanShieldUITests.xctest */,
+				78F4639C2D14641F009DB1AF /* PoCLanShieldSafariExtension.appex */,
+				78F463C52D149462009DB1AF /* PoCLanShieldWatch Watch App.app */,
+				78F464182D19BB3C009DB1AF /* PoCLanShieldDDE.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78DE445B2D2C912300473B65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78DE446A2D2C932200473B65 /* AVKit.framework */,
+				78DE44682D2C931C00473B65 /* AVFoundation.framework */,
+				78DE44662D2C931500473B65 /* AVRouting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A39DBF2D1424A9004833CA /* PoC-LanShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A39DE42D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShield" */;
+			buildPhases = (
+				78A39DBC2D1424A9004833CA /* Sources */,
+				78A39DBD2D1424A9004833CA /* Frameworks */,
+				78A39DBE2D1424A9004833CA /* Resources */,
+				78F463B92D14641F009DB1AF /* Embed Foundation Extensions */,
+				78F463D62D149463009DB1AF /* Embed Watch Content */,
+				78DE447E2D2C946F00473B65 /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F463B32D14641F009DB1AF /* PBXTargetDependency */,
+				78DE44652D2C92C700473B65 /* PBXTargetDependency */,
+				78DE44872D2C988800473B65 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78A39DC22D1424A9004833CA /* PoC-LanShield */,
+			);
+			name = "PoC-LanShield";
+			packageProductDependencies = (
+			);
+			productName = "PoC-LanShield";
+			productReference = 78A39DC02D1424A9004833CA /* PoC-LanShield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78A39DCF2D1424AB004833CA /* PoC-LanShieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A39DE72D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShieldTests" */;
+			buildPhases = (
+				78A39DCC2D1424AB004833CA /* Sources */,
+				78A39DCD2D1424AB004833CA /* Frameworks */,
+				78A39DCE2D1424AB004833CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A39DD22D1424AB004833CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78A39DD32D1424AB004833CA /* PoC-LanShieldTests */,
+			);
+			name = "PoC-LanShieldTests";
+			packageProductDependencies = (
+			);
+			productName = "PoC-LanShieldTests";
+			productReference = 78A39DD02D1424AB004833CA /* PoC-LanShieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78A39DD92D1424AB004833CA /* PoC-LanShieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A39DEA2D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShieldUITests" */;
+			buildPhases = (
+				78A39DD62D1424AB004833CA /* Sources */,
+				78A39DD72D1424AB004833CA /* Frameworks */,
+				78A39DD82D1424AB004833CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A39DDC2D1424AB004833CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78A39DDD2D1424AB004833CA /* PoC-LanShieldUITests */,
+			);
+			name = "PoC-LanShieldUITests";
+			packageProductDependencies = (
+			);
+			productName = "PoC-LanShieldUITests";
+			productReference = 78A39DDA2D1424AB004833CA /* PoC-LanShieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		78F4639B2D14641F009DB1AF /* PoCLanShieldSafariExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F463B62D14641F009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldSafariExtension" */;
+			buildPhases = (
+				78F463982D14641F009DB1AF /* Sources */,
+				78F463992D14641F009DB1AF /* Frameworks */,
+				78F4639A2D14641F009DB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78F4639D2D14641F009DB1AF /* PoCLanShieldSafariExtension */,
+			);
+			name = PoCLanShieldSafariExtension;
+			packageProductDependencies = (
+			);
+			productName = PoCLanShieldSafariExtension;
+			productReference = 78F4639C2D14641F009DB1AF /* PoCLanShieldSafariExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		78F463C42D149462009DB1AF /* PoCLanShieldWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F463D32D149463009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldWatch Watch App" */;
+			buildPhases = (
+				78F463C12D149462009DB1AF /* Sources */,
+				78F463C22D149462009DB1AF /* Frameworks */,
+				78F463C32D149462009DB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78F463C62D149462009DB1AF /* PoCLanShieldWatch Watch App */,
+			);
+			name = "PoCLanShieldWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "PoCLanShieldWatch Watch App";
+			productReference = 78F463C52D149462009DB1AF /* PoCLanShieldWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78F464172D19BB3C009DB1AF /* PoCLanShieldDDE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78F464272D19BB3C009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldDDE" */;
+			buildPhases = (
+				78F464142D19BB3C009DB1AF /* Sources */,
+				78F464152D19BB3C009DB1AF /* Frameworks */,
+				78F464162D19BB3C009DB1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				78F464192D19BB3C009DB1AF /* PoCLanShield_DDE */,
+			);
+			name = PoCLanShieldDDE;
+			packageProductDependencies = (
+			);
+			productName = PoCLanShield_DDE;
+			productReference = 78F464182D19BB3C009DB1AF /* PoCLanShieldDDE.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A39DB82D1424A9004833CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					78A39DBF2D1424A9004833CA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					78A39DCF2D1424AB004833CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78A39DBF2D1424A9004833CA;
+					};
+					78A39DD92D1424AB004833CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 78A39DBF2D1424A9004833CA;
+					};
+					78F4639B2D14641F009DB1AF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					78F463C42D149462009DB1AF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					78F464172D19BB3C009DB1AF = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 78A39DBB2D1424A9004833CA /* Build configuration list for PBXProject "PoC-LanShield" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A39DB72D1424A9004833CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 78A39DC12D1424A9004833CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A39DBF2D1424A9004833CA /* PoC-LanShield */,
+				78A39DCF2D1424AB004833CA /* PoC-LanShieldTests */,
+				78A39DD92D1424AB004833CA /* PoC-LanShieldUITests */,
+				78F4639B2D14641F009DB1AF /* PoCLanShieldSafariExtension */,
+				78F463C42D149462009DB1AF /* PoCLanShieldWatch Watch App */,
+				78F464172D19BB3C009DB1AF /* PoCLanShieldDDE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A39DBE2D1424A9004833CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DCE2D1424AB004833CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DD82D1424AB004833CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F4639A2D14641F009DB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463C32D149462009DB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F464162D19BB3C009DB1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A39DBC2D1424A9004833CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DCC2D1424AB004833CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A39DD62D1424AB004833CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463982D14641F009DB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F463C12D149462009DB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78F464142D19BB3C009DB1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78A39DD22D1424AB004833CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A39DBF2D1424A9004833CA /* PoC-LanShield */;
+			targetProxy = 78A39DD12D1424AB004833CA /* PBXContainerItemProxy */;
+		};
+		78A39DDC2D1424AB004833CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A39DBF2D1424A9004833CA /* PoC-LanShield */;
+			targetProxy = 78A39DDB2D1424AB004833CA /* PBXContainerItemProxy */;
+		};
+		78DE44652D2C92C700473B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F463C42D149462009DB1AF /* PoCLanShieldWatch Watch App */;
+			targetProxy = 78DE44642D2C92C700473B65 /* PBXContainerItemProxy */;
+		};
+		78DE44872D2C988800473B65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F464172D19BB3C009DB1AF /* PoCLanShieldDDE */;
+			targetProxy = 78DE44862D2C988800473B65 /* PBXContainerItemProxy */;
+		};
+		78F463B32D14641F009DB1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78F4639B2D14641F009DB1AF /* PoCLanShieldSafariExtension */;
+			targetProxy = 78F463B22D14641F009DB1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		78A39DE22D1424AB004833CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78A39DE32D1424AB004833CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A39DE52D1424AB004833CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PoC-LanShield/PoC-LanShield.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoC-LanShield/Preview Content\"";
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PoC-LanShield/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A39DE62D1424AB004833CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "PoC-LanShield/PoC-LanShield.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoC-LanShield/Preview Content\"";
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PoC-LanShield/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78A39DE82D1424AB004833CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoC-LanShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoC-LanShield";
+			};
+			name = Debug;
+		};
+		78A39DE92D1424AB004833CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoC-LanShield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PoC-LanShield";
+			};
+			name = Release;
+		};
+		78A39DEB2D1424AB004833CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PoC-LanShield";
+			};
+			name = Debug;
+		};
+		78A39DEC2D1424AB004833CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PoC-LanShield";
+			};
+			name = Release;
+		};
+		78F463B72D14641F009DB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoCLanShieldSafariExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShieldSafariExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.PoCLanShieldSafariExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F463B82D14641F009DB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoCLanShieldSafariExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShieldSafariExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.PoCLanShieldSafariExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78F463D42D149463009DB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoCLanShieldWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PoCLanShieldWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShieldWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "de.tu-darmstadt.PoC-LanShield";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		78F463D52D149463009DB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PoCLanShieldWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PoCLanShieldWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShieldWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "de.tu-darmstadt.PoC-LanShield";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		78F464282D19BB3C009DB1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoCLanShield_DDE/PoCLanShield_DDE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoCLanShield_DDE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShield_DDE;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDDE";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.PoCLanShield-DDE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78F464292D19BB3C009DB1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PoCLanShield_DDE/PoCLanShield_DDE.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2B79VWGA3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PoCLanShield_DDE/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PoCLanShield_DDE;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-DDDE";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.tu-darmstadt.PoC-LanShield.PoCLanShield-DDE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A39DBB2D1424A9004833CA /* Build configuration list for PBXProject "PoC-LanShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A39DE22D1424AB004833CA /* Debug */,
+				78A39DE32D1424AB004833CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A39DE42D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A39DE52D1424AB004833CA /* Debug */,
+				78A39DE62D1424AB004833CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A39DE72D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A39DE82D1424AB004833CA /* Debug */,
+				78A39DE92D1424AB004833CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A39DEA2D1424AB004833CA /* Build configuration list for PBXNativeTarget "PoC-LanShieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A39DEB2D1424AB004833CA /* Debug */,
+				78A39DEC2D1424AB004833CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F463B62D14641F009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldSafariExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F463B72D14641F009DB1AF /* Debug */,
+				78F463B82D14641F009DB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F463D32D149463009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F463D42D149463009DB1AF /* Debug */,
+				78F463D52D149463009DB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78F464272D19BB3C009DB1AF /* Build configuration list for PBXNativeTarget "PoCLanShieldDDE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F464282D19BB3C009DB1AF /* Debug */,
+				78F464292D19BB3C009DB1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A39DB82D1424A9004833CA /* Project object */;
+}
