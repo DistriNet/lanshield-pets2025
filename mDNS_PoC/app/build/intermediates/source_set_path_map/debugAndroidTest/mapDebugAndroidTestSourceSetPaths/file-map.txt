@@ -1,0 +1,5 @@
+com.example.mdns.test.app-androidTest-0 /home/beitis/AndroidStudioProjects/mdns/app/build/generated/res/resValues/androidTest/debug
+com.example.mdns.test.app-mergeDebugAndroidTestResources-1 /home/beitis/AndroidStudioProjects/mdns/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.mdns.test.app-mergeDebugAndroidTestResources-2 /home/beitis/AndroidStudioProjects/mdns/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.mdns.test.app-debugAndroidTest-3 /home/beitis/AndroidStudioProjects/mdns/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
+com.example.mdns.test.app-core-1.6.1-4 /root/.gradle/caches/8.9/transforms/d68865c16a1dc83b31aa7fdb7fb68aef/transformed/core-1.6.1/res

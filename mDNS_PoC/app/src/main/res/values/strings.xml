@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">mdns</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string-array name="implementations_array">
+        <item>Host</item>
+        <item>Service</item>
+    </string-array>
+    <string-array name="service_types">
+        <item>_http._tcp</item>
+        <item>_airplay._tcp</item>
+        <item>_airdrop._tcp</item>
+        <item>_ssh._tcp</item>
+        <item>_services._dns-sd._udp</item>
+    </string-array>
+</resources>
